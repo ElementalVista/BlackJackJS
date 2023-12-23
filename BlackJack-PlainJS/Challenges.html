@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="Challenges.css" />
+    <title>BlackJackJS</title>
+  </head>
+
+  <body>
+    <h1>BlackJack</h1>
+    <div class="player1">
+      <h2 id="count-el">0</h2>
+
+      <button id="stand-btn" onclick="stand()">STAND</button>
+      <button id="increment-btn" onclick="dealcard()">DEAL CARD</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+
+      <p id="deal-el"></p>
+      <p id="save-el">Previous entries:</p>
+      <p id="pleasestand-el"></p>
+    </div>
+    <h2 class="headerAI">AI Competitor</h2>
+    <div class="AI">
+      <h2 id="AI-count-el">0</h2>
+      <p id="AI-deal-el"></p>
+      <p id="AI-save-el">Previous entries:</p>
+      <p id="AI-pleasestand-el"></p>
+    </div>
+    <script src="Challenges.js"></script>
+  </body>
+</html>
