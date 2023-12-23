@@ -1,7 +1,7 @@
 html{
     font-family:'Courier New', Courier, monospace;
     background-color: lightblue;
-    background-image: url('/BlackJack-PlainJS/Images/Blackjack\ background.jpg');
+    background-image: url('/Images/Blackjack\ background.jpg');
     background-size: cover;
     position: relative;
 }
