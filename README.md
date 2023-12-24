@@ -1,2 +1,2 @@
 # BlackJackJS
-A simple Black Jack game.
+A simple BlackJack game.
